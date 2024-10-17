@@ -1,0 +1,21 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.dll
+*.so
+
+#redis dbs
+*.rdb
+
+#debug folders
+debug/
+
+#build folder
+build/
+bin/
+
+#Sentry Native packages
+video-plugins/.sentry-native

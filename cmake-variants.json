@@ -1,0 +1,49 @@
+{
+    "buildType": {
+        "default": "InstallWithDebugInfo",
+        "description": "The build type.",
+        "choices": {
+            "InstallWithDebugInfo": {
+                "short": "InstallWithDebugInfo",
+                "long": "Install binaries with debug information. (ADMIN)",
+                "buildType": "RelWithDebInfo",
+                "generator": "Ninja",
+                "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=InstallWithDebugInfo",
+                "buildRoot": "${workspaceFolder}/build/debug"
+            },
+            "InstallRelease": {
+                "short": "InstallRelease",
+                "long": "Install binaries without debug information. (ADMIN)",
+                "buildType": "Release",
+                "generator": "Ninja",
+                "cmakeCommandArgs": "-DCMAKE_BUILD_TYPE=INSTALLRELEASE",
+                "buildRoot": "${workspaceFolder}/build/release"
+            },
+            "debug": {
+                "short": "Debug",
+                "long": "Disable optimizations - include debug information.",
+                "buildType": "Debug"
+            },
+            "release": {
+                "short": "Release",
+                "long": "Optimize for speed - exclude debug information.",
+                "buildType": "Release"
+            },
+            "minsize": {
+                "short": "MinSizeRel",
+                "long": "Optimize for smallest binary size - exclude debug information.",
+                "buildType": "MinSizeRel"
+            },
+            "reldeb": {
+                "short": "RelWithDebInfo",
+                "long": "Optimize for speed - include debug information.",
+                "buildType": "RelWithDebInfo"
+            },
+            "RelUnitTest": {
+                "short": "RelWithUnitTestInfo",
+                "long": "Optimize for speed - include debug information and unit tests.",
+                "buildType": "RelWithDebInfo"
+            }
+        }
+    }
+}

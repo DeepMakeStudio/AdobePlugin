@@ -1,0 +1,36 @@
+[submodule "video-plugins/external/spdlog"]
+	path = video-plugins/external/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "video-plugins/external/rapidjson"]
+	path = video-plugins/external/rapidjson
+	url = https://github.com/Tencent/rapidjson.git
+[submodule "video-plugins/external/googletest"]
+	path = video-plugins/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "video-plugins/external/cpr"]
+	path = video-plugins/external/cpr
+	url = https://github.com/libcpr/cpr.git
+[submodule "fastapi_launcher"]
+	path = fastapi_launcher
+	url = https://github.com/DeepMakeStudio/DeepMake.git
+[submodule "available_plugins/Diffusers"]
+	path = available_plugins/Diffusers
+	url = https://github.com/DeepMakeStudio/Diffusers.git
+[submodule "available_plugins/Bisenet"]
+	path = available_plugins/Bisenet
+	url = https://github.com/DeepMakeStudio/Bisenet.git
+[submodule "available_plugins/BasicSR"]
+	path = available_plugins/BasicSR
+	url = https://github.com/DeepMakeStudio/BasicSR.git
+[submodule "video-plugins/external/sentry"]
+	path = video-plugins/external/sentry
+	url = https://github.com/getsentry/sentry-native.git
+[submodule "available_plugins/Dummy"]
+	path = available_plugins/Dummy
+	url = https://github.com/DeepMakeStudio/Dummy.git
+[submodule "available_plugins/GroundingDINO-SAM"]
+	path = available_plugins/GroundingDINO-SAM
+	url = https://github.com/DeepMakeStudio/GroundingDINO-SAM.git
+[submodule "video-plugins/external/redis-plus-plus"]
+	path = video-plugins/external/redis-plus-plus
+	url = https://github.com/sewenew/redis-plus-plus.git
